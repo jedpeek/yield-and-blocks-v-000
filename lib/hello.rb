@@ -10,6 +10,7 @@ def hello_t(array)
 else
   "No block given!"
 end
+end
 
 # call your method here!
 hello_t(names){|name| puts name}
