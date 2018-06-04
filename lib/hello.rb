@@ -1,4 +1,4 @@
-def hello_t(arr)
+def hello_t(array)
   i = 0
   while i < arr.length
     yield(arr[i])
