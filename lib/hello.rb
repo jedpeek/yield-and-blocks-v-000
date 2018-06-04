@@ -1,4 +1,4 @@
-def hello_t(arr)
+def hello_t(arr){|x| puts x}
   i = 0
   while i < arr.length
     puts "Hello #{arr[i]}!"
@@ -7,4 +7,3 @@ def hello_t(arr)
 end
 
 # call your method here!
-
