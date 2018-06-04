@@ -1,11 +1,11 @@
 def hello_t(array)
   i = 0
-  while i < arr.length
-    yield(arr[i])
+  while i < array.length
+    yield(array[i])
     i+=1
   end
-  return arr
+  return array
 end
 
 # call your method here!
-hello_t(arr)
+hello_t(array)
