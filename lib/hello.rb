@@ -14,5 +14,6 @@ end
 
 # call your method here!
 hello_t(names) do |name|
-  name.start_with?("T") puts "Hi, #{name}"
+  name.start_with?("T")
+   puts "Hi, #{name}"
 end
